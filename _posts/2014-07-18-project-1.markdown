@@ -1,0 +1,15 @@
+---
+title: EBAY and Beyond
+subtitle: Guest Speaker
+layout: default
+modal-id: 1
+date: 2014-07-17
+img: ebay.png
+thumbnail: ebay-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Jamie Ianonne, CEO of Ebay, will be presenting to us about his journey to the top of e-commerce and how his comany utilizes skills we use in our hackathon to make a difference in the world. Be sure not to miss this one.
+
+---
