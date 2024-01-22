@@ -8,5 +8,5 @@ color:
 # Font Families
 font: 
   # primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  primary: 'Montserrat,Helvetica,Arial,sans-serif'
-  secondary: '"Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: 'Ubuntu,Open Sans, Montserrat,Helvetica,Arial,sans-serif'
+  secondary: 'Open Sans, Helvetica,Arial,sans-serif'
