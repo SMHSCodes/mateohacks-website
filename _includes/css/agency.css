@@ -570,14 +570,14 @@ header .intro-text .pro-image {
 @media screen and (max-width: 768px) {
     /* Adjust font size for smaller screens (e.g., tablets) */
     header .intro-text .intro-title-white {
-      font-size: 200px;
+      font-size: 100px;
     }
     header .intro-text .intro-title-orange {
-        font-size: 200px;
+        font-size: 100px;
       }
 
     header .intro-text .pro-image {
-        width: 400px;
+        width: 80%;
       }
   }
 
@@ -587,13 +587,13 @@ header .intro-text .pro-image {
   @media screen and (max-width: 480px) {
     /* Adjust font size for even smaller screens (e.g., smartphones) */
     header .intro-text .intro-title-white {
-      font-size: 60px;
+      font-size: 40px;
     }
     header .intro-text .intro-title-orange {
-        font-size: 60px;
+        font-size: 40px;
       }
       header .intro-text .pro-image {
-        width: 300px;
+        width: 60%;
       }
   }
 
