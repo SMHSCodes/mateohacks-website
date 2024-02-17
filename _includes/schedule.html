@@ -1,4 +1,33 @@
 <!-- Information Section -->
+<style>
+    .schedule-img {
+        margin: 40px; /* Adjust the value as needed for your desired spacing */
+        max-width: 100%; /* Make sure the image doesn't exceed its natural size */
+        width: 80%; /* Take up the full width of the container */
+        height: auto; /* Maintain aspect ratio */
+        border: 1px solid #979797;
+        /* Set a fixed height for the boxes */
+        border-radius: 20px;
+        background-color: #{{site.data.template.color.primary}};
+        box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.3);
+        /* Include padding and border in the box size calculation */
+        box-sizing: border-box;
+    }
+
+    @media (min-width: 768px) {
+        /* Adjust the size for smaller screens */
+        .sponsor-img {
+            max-width: 400px;
+        }
+    }
+
+    @media (min-width: 480px) {
+        /* Adjust the size for even smaller screens */
+        .sponsor-img {
+            max-width: 200px;
+        }
+    }
+</style>
 <section id="schedule">
     <div class="container">
         <div class="row">
@@ -7,7 +36,7 @@
                 <h3 class="section-subheading text-muted">Please email <a href="mailto:mateohacks25@gmail.com" class="footer">mateohacks25@gmail.com </a> if you have any questions about our schedule. Our team will contact you shortly to answer any inqueries you have.</h3>
             </div>
             <div class="col-lg-12 text-center">
-                <img src="/img/MHSched.png" alt="MateoHacks Schedule">
+                <img src="/img/MHSched.png" alt="MateoHacks Schedule" class="schedule-img">
             </div>
         </div>
     </div>
