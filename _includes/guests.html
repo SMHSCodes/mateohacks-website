@@ -1,6 +1,6 @@
 
  <!-- Team Section -->
-  <!-- <section id="guests" class="bg-light-gray">
+   <section id="guests" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -11,7 +11,24 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/Mehul.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/Anjana.M-updated.png" class="img-responsive img-circle" alt="">
+                        <h4>Anjana Manian</h4>
+                        <p class="text-muted">Co-founder of DIYA Research</p>
+                         <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul> 
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/Ryan-Profile-Headshot-2022.jpg" class="img-responsive img-circle" alt="">
                         <h4>Ryan Roslansky</h4>
                         <p class="text-muted">CEO of LinkedIn</p>
                          <ul class="list-inline social-buttons">
@@ -28,26 +45,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/blank.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Sanjay Muhkyala</h4>
-                        <p class="text-muted">Organizer</p>
-                         <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul> 
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/blank.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Aaron Guo</h4>
-                        <p class="text-muted">Organizer</p>
+                        <img src="img/team/Mehul.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Mehul Gandhi</h4>
+                        <p class="text-muted">UC Berkely Student</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
@@ -60,7 +60,7 @@
                         </ul> 
                     </div>
                 </div>
-            </div> -->
+            </div> 
 <!--             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
